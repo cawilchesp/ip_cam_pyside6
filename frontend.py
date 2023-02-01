@@ -68,7 +68,7 @@ class App(QWidget):
         # -------------
         # Base de Datos
         # -------------
-        self.ip_cameras_value = backend.create_db('ip_cam', 'ecf406MetroidPrime')
+        self.ip_cameras_value = backend.create_db('ip_cam', 'password')
 
         # ----------------
         # Generación de UI
